@@ -125,43 +125,6 @@ flowchart TB
     MD5 --> DB
 ```
 
-project-root/
-│
-├── config/
-│ └── db.js
-│
-├── controllers/
-│ ├── authController.js
-│ ├── userController.js
-│ ├── foodController.js
-│ ├── categoryController.js
-│ ├── resturantController.js
-│ └── orderController.js
-│
-├── middlewares/
-│ ├── authMiddleware.js
-│ └── adminMiddleware.js
-│
-├── models/
-│ ├── userModel.js
-│ ├── foodModel.js
-│ ├── categoryModel.js
-│ ├── resturantModel.js
-│ └── orderModel.js
-│
-├── routes/
-│ ├── authRoutes.js
-│ ├── userRoutes.js
-│ ├── foodRoutes.js
-│ ├── categoryRoutes.js
-│ ├── resturantRoutes.js
-│ └── orderRoutes.js
-│
-├── .env
-├── server.js
-├── package.json
-└── README.md
-
 | Module         | Description             |
 | -------------- | ----------------------- |
 | Auth API       | Register/Login/JWT      |

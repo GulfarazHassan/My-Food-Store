@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  api:
+    container_name: ecommerce_backend
+    restart: unless-stopped
+    image: sport-backend-prod:1.0.0
+    build:
+      context: ./
+      target: production
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8000
+    environment:
+      - NODE_ENV=production
